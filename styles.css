@@ -1,0 +1,902 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 90px !important;
+  background-color: #303030;
+  font-family: "Epilogue", sans-serif;
+}
+
+img {
+  object-fit: scale-down;
+}
+
+/*Navigation Bar*/
+.header {
+  overflow: hidden;
+  background-color: #f0f3ff;
+  padding: 17px;
+  width: 100%;
+}
+
+.header-right {
+  float: right;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header-right a {
+  color: black;
+  display: inline-block;
+  width: 120px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: #d1ccdc;
+  color: black;
+}
+
+.header-right .sign-in-style {
+  color: white;
+  background-color: black;
+  margin-left: 40px;
+}
+
+.header-right .sign-up-style {
+  color: white;
+  background-color: #0044ff;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.logo {
+  margin: 7px 0px 0px 15px;
+  color: black;
+  float: left;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+/*Home Page*/
+.showcase {
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  margin-top: 65px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  background-color: #f0f3ff;
+}
+
+.showcase a {
+  margin-left: 200px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 15px 50px 15px 50px;
+  font-weight: 600;
+}
+
+.showcase h2 {
+  font-size: 40px;
+}
+
+.showcase h1 {
+  font-size: 70px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.showcase h6 {
+  margin-top: 50px;
+  margin-right: 20px;
+  float: right;
+}
+
+.showcase a:hover {
+  transition: all 0.5s;
+  color: black;
+  background-color: #d1ccdc;
+}
+
+.featured {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.featured h2 {
+  color: white;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.container {
+  position: static;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 25%;
+  height: 300px;
+  background-color: #f0f3ff;
+}
+
+.container img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ts1 img {
+  width: 80%;
+  height: 75%;
+  bottom: 35px;
+}
+
+.ts2 img {
+  width: 85%;
+  height: 40%;
+  top: 5px;
+}
+
+.ts3 img {
+  width: 100%;
+  height: 65%;
+  bottom: 30px;
+}
+
+.mp1 img {
+  width: 80%;
+  height: 45%;
+}
+
+.mp2 img {
+  width: 100%;
+  height: 60%;
+  bottom: 15px;
+}
+
+.mp3 img {
+  width: 105%;
+  height: 60%;
+  bottom: 15px;
+}
+
+.product-name {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.text-ts1 {
+  position: relative;
+  bottom: 22px;
+}
+
+.text-ts2 {
+  position: relative;
+  top: 48px;
+}
+
+.text-ts3 {
+  position: relative;
+  bottom: 5px;
+}
+
+.text-mp1 {
+  position: relative;
+  top: 45px;
+}
+
+.text-mp2 {
+  position: relative;
+  top: 18px;
+}
+
+.text-mp3 {
+  position: relative;
+  top: 15px;
+}
+
+/*Sign In & Sign Up Page*/
+.account-heading {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 85px;
+}
+
+.account-heading #welcome {
+  margin-top: 175px;
+}
+
+.account-heading #create {
+  margin-top: 95px;
+}
+
+.account-form {
+  margin: auto;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 550px;
+}
+
+label {
+  color: white;
+  display: block;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+input {
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: #f0f3ff;
+  color: #666666;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+input:hover {
+  background-color: white;
+}
+
+input:focus {
+  cursor: text;
+  color: #303030;
+  background-color: white;
+  border-color: #303030;
+}
+
+input[type="submit"] {
+  display: block;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+input[type="submit"]:hover {
+  color: black;
+  background-color: #f0f3ff;
+}
+
+#account-extra {
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#account-extra a {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+/*Product Details*/
+.big-container {
+  margin: 85px 150px 95px 150px;
+  padding: 45px 100px 50px 100px;
+  background-color: #f0f3ff;
+  border-radius: 10px;
+  line-height: 25px;
+}
+
+.big-container img {
+  display: inline-block;
+}
+
+section {
+  margin-top: 60px;
+}
+
+#nvidia-rtx3070 {
+  width: 30%;
+  height: 30%;
+}
+
+#logitech-pro {
+  width: 35%;
+  height: 35%;
+  margin-top: 60px;
+}
+
+#razer-BW {
+  width: 40%;
+  height: 30%;
+  margin-top: 10px;
+}
+
+#logitech-g502 {
+  width: 35%;
+  height: 35%;
+  margin-top: 60px;
+}
+
+#razer-DA {
+  width: 40%;
+  height: 40%;
+  margin-top: 25px;
+}
+
+#logitech-g512 {
+  width: 50%;
+  height: 50%;
+  margin-top: 30px;
+}
+
+.price-cart {
+  position: relative;
+  float: right;
+  text-align: center;
+  top: 105px;
+  right: 20px;
+}
+
+.price-cart button {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 15px 50px 15px 50px;
+  transition: all 0.5s;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.price-cart button:hover {
+  background-color: #d1ccdc;
+  color: black;
+}
+
+#model {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#ssa {
+  width: 50%;
+  height: 50%;
+}
+
+#ck55 {
+  width: 50%;
+  height: 50%;
+}
+
+#sa7 {
+  width: 50%;
+  height: 50%;
+}
+
+#atuf {
+  width: 50%;
+  height: 50%;
+}
+
+#bqm {
+  width: 50%;
+  height: 50%;
+}
+
+/*Products Page*/
+.products-container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products-container h1 {
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  margin-top: 110px;
+  font-weight: 800;
+}
+
+.products-container h2 {
+  color: white;
+  background-color: black;
+  padding: 15px;
+  font-size: 30px;
+  margin-top: 110px;
+  margin-bottom: 40px;
+}
+
+.sectionLinks {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.sectionLinks li {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sectionLinks a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.sectionLinks :hover {
+  color: black;
+  background-color: #d1ccdc;
+}
+
+.k2 img {
+  width: 150%;
+  height: 80%;
+  bottom: 15px;
+}
+
+.gc1 img {
+  width: 75%;
+  height: 75%;
+  bottom: 25px;
+}
+
+.text-gc1 {
+  position: relative;
+  bottom: 20px;
+}
+
+.gc2 img {
+  width: 75%;
+  height: 75%;
+  bottom: 35px;
+}
+
+.text-gc2 {
+  position: relative;
+  bottom: 20px;
+}
+
+.gc3 img {
+  width: 70%;
+  height: 70%;
+  bottom: 25px;
+}
+
+.text-gc3 {
+  position: relative;
+  bottom: 5px;
+}
+
+.m3 img {
+  width: 115%;
+  height: 115%;
+  bottom: 60px;
+  right: 20px;
+}
+
+.text-m3 {
+  position: relative;
+  bottom: 95px;
+}
+
+.k1 img {
+  width: 60%;
+  height: 60%;
+  bottom: 15px;
+}
+
+.text-k1 {
+  position: relative;
+  top: 18px;
+}
+
+.k2 img {
+  width: 90%;
+  height: 90%;
+  bottom: 40px;
+}
+
+.text-k2 {
+  position: relative;
+  bottom: 45px;
+}
+
+.mo1 img {
+  width: 85%;
+  height: 85%;
+  bottom: 35px;
+}
+
+.text-mo1 {
+  position: relative;
+  bottom: 35px;
+}
+
+.mo3 img {
+  width: 85%;
+  height: 85%;
+  bottom: 35px;
+}
+
+.text-mo3 {
+  position: relative;
+  bottom: 35px;
+}
+
+/* Support Page*/
+.sp-container {
+  top: 130px;
+  padding: 50px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 400px;
+  height: 300px;
+  background-color: #f0f3ff;
+}
+
+#sp-header {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  top: 30px;
+  font-weight: 800;
+}
+
+#sp-header2 {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  top: 125px;
+  font-weight: 800;
+}
+
+#sp-subtext {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  top: 105px;
+  font-weight: normal;
+}
+
+.wrapper {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1000px;
+  padding: 15px;
+  display: flex;
+}
+
+.input[type="text"] {
+  width: 100%;
+}
+
+.Support-1 {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  top: 500px;
+}
+
+.sp-featured {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sp1 img {
+  position: relative;
+  width: 80%;
+  height: 75%;
+  bottom: 20px;
+}
+
+.sp2 img {
+  position: relative;
+  width: 85%;
+  height: 40%;
+  top: 30px;
+}
+
+.sp3 img {
+  position: relative;
+  width: 100%;
+  height: 65%;
+  bottom: 10px;
+}
+
+.sp4 img {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  bottom: 15px;
+}
+
+.spproduct-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text-sp1 {
+  position: relative;
+}
+
+.text-sp2 {
+  position: relative;
+  top: 70px;
+}
+
+.text-sp3 {
+  position: relative;
+  top: 22px;
+}
+
+.text-sp4 {
+  position: relative;
+  bottom: 10px;
+}
+
+/*Cart Page*/
+.large-container {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-cart1 {
+  top: 50px;
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+  border: 10px;
+  width: 70%;
+  height: 150px;
+  background-color: #f0f3ff;
+}
+
+.container-cart2 {
+  top: 100px;
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+  border: 10px;
+  width: 70%;
+  height: 150px;
+  background-color: #f0f3ff;
+}
+
+.container-cart3 {
+  top: 150px;
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+  border: 10px;
+  width: 70%;
+  height: 150px;
+  background-color: #f0f3ff;
+}
+
+.cs1 img {
+  position: relative;
+  width: 80%;
+  height: 75%;
+  top: 10%;
+  right: 30%;
+}
+
+.checkbox {
+  position: relative;
+  top: -45px;
+  right: 42%;
+}
+
+.ct1 {
+  position: relative;
+  top: -70px;
+  left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cp1 {
+  position: absolute;
+  top: 60px;
+  right: 100px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cp2 {
+  position: absolute;
+  top: 60px;
+  right: 105px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cp3 {
+  position: absolute;
+  top: 60px;
+  right: 115px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.d1 {
+  position: absolute;
+  top: 90px;
+  right: 107px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cs2 img {
+  position: relative;
+  width: 22%;
+  height: 65%;
+  top: 25px;
+  right: 28%;
+}
+
+.cs3 img {
+  position: relative;
+  width: 22%;
+  height: 65%;
+  top: 25px;
+  right: 28%;
+}
+
+.checkbox2 {
+  position: relative;
+  top: -30px;
+  right: 42%;
+}
+
+.ct2 {
+  position: relative;
+  top: -55px;
+  left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ct3 {
+  position: relative;
+  top: -55px;
+  left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.checkout {
+  color: white;
+  float: right;
+  margin-top: 200px;
+  margin-right: 280px;
+}
+
+.total-price {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.proceed-checkout {
+  background-color: black;
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  outline: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.proceed-checkout:hover {
+  transition: all 0.5s;
+  color: black;
+  background-color: #d1ccdc;
+}
+
+/*About Page*/
+.about {
+  overflow: auto;
+  background-image: url("imgs/about.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.about-us {
+  position: relative;
+  color: white;
+  margin-top: 500px;
+  margin-left: 100px;
+  line-height: 30px;
+}
+
+.about-heading h1 {
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.about-text {
+  font-size: 25px;
+}
+
+.about-more {
+  position: relative;
+  color: white;
+}
+
+.about-more-heading h2 {
+  position: relative;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.about-more-text {
+  position: relative;
+  bottom: 20px;
+}
+
+.about-more-text a {
+  text-decoration: none;
+  color: rgb(216, 141, 251);
+}

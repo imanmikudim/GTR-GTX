@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title on Browser -->
+    <title>GTR-GTX | Sign In</title>
+
+    <!-- Browser Icon -->
+    <link rel="icon" type="image/png" href="imgs/logo.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External Sheets -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="home.html" class="logo">GTR-GTX</a>
+      <div class="header-right">
+        <a href="home.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="support.html">Support</a>
+        <a href="about.html">About</a>
+        <a href="sign-in.html" class="sign-in-style">Sign In</a>
+        <a href="sign-up.html" class="sign-up-style">Sign Up</a>
+      </div>
+    </div>
+
+    <div class="account-heading">
+      <div id="welcome">Welcome back</div>
+    </div>
+
+    <div class="account-form">
+      <form action="/account-sign-in">
+        <div>
+          <label for="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Your Email"
+            name="email"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            placeholder="Your Password"
+            name="password"
+            minlength="9"
+            maxlength="20"
+            required
+          />
+        </div>
+
+        <input type="submit" value="Sign in" />
+
+        <div id="account-extra">
+          Don't have an account?
+          <a href="sign-up.html" id="account-link">Sign Up</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
